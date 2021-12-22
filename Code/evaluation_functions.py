@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+import tensorflow as tf
 def smape(y_true, y_pred):
     temp = pd.DataFrame()
     temp['y_true'] = y_true
@@ -26,3 +26,8 @@ def mape(y_true, y_pred, thre=1000):
         return np.round(mape, 2)
     else:
         return np.nan
+
+if __name__ == "__main__":
+    print(333)
+    print(666)
+    pass
