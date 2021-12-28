@@ -11,3 +11,5 @@ tar -zcvf load-forecast-products.tar.gz /home/jovyan/load-forecast-product
 # 文件解压
 tar -zxvf load-forecast-products.tar.gz /home/jovyan/load-forecast-product/
 
+# 命令行下载文件(以下载anaconda为例)
+wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2021.11-Linux-x86_64.sh
