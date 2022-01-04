@@ -13,3 +13,11 @@ tar -zxvf load-forecast-products.tar.gz /home/jovyan/load-forecast-product/
 
 # 命令行下载文件(以下载anaconda为例)
 wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2021.11-Linux-x86_64.sh
+
+# ubuntu下报错AttributeError: module 'graphviz.backend' has no attribute 'ENCODING'
+方法：更graphviz版本为0.16
+
+pip install graphviz==0.16
+# vscode 每次重新打开后连接github同步问题
+
+
