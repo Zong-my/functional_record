@@ -20,6 +20,9 @@ wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2021.11-Lin
 pip install graphviz==0.16
 # vscode 每次重新打开后连接github同步问题
 1、执行pull
+
 2、线下更新代码
+
 3、执行commit
+
 4、执行push
