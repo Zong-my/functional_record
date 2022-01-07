@@ -46,3 +46,44 @@ pip install graphviz==0.16
 3、执行commit
 
 4、执行push
+
+# 安装jupyterlab&jupyternotebook并添加kernel操作
+
+## 1、激活目标环境（xxx）
+
+conda activate xxx
+
+## 2、安装jupyter notebook、jupyterlab
+
+pip install jupyter notebook
+
+pip install jupyterlab
+
+## 3、查看已有kernel
+
+ipython kernelspec list
+
+## 4、安装ipykernel便于后续添加新kernel
+
+pip install ipykernel
+
+## 5、查看当前目标环境的解释器路径
+
+命令行输入python
+
+import sys
+
+sys.executable
+
+'E:\\Anaconda3-2020.02-Windows-x86_64\\envs\\py37\\python.exe'
+记录下来python.exe前面的部分
+
+exit()
+
+## 6、将当前目标环境解释器作为新kernel添加至jupyter notebook&jupyterlab
+
+5中的语句转换为：E:\Anaconda3-2020.02-Windows-x86_64\envs\py37\
+命令行执行：
+
+E:\Anaconda3-2020.02-Windows-x86_64\envs\py37\python -m ipykernel install --name py37（py37为环境名称，因人而异）
+
