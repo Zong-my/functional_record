@@ -18,6 +18,22 @@ wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2021.11-Lin
 方法：更graphviz版本为0.16
 
 pip install graphviz==0.16
+
+# vscode第一次链接github操作
+
+1、电脑本地新建一个文件夹用于clone对应github项目
+
+2、vscode打开本地新建文件夹
+
+3、vscode左下角添加github账号
+
+4、clone对应github文件到本地
+
+5、pull操作
+
+6、线下更新代码
+
+7、commit、push操作
 # vscode 每次重新打开后连接github同步问题
 1、执行pull
 
