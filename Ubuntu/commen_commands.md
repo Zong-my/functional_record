@@ -33,7 +33,11 @@ pip install graphviz==0.16
 
 6、线下更新代码
 
-7、commit、push操作
+7、git config --global user.email "mingyang.zong@envision-digital.com"
+
+8、git config --global user.name "mingyang"  
+
+9、commit、push操作
 # vscode 每次重新打开后连接github同步问题
 1、执行pull
 
