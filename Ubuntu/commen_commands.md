@@ -39,7 +39,7 @@ pip install graphviz==0.16
 
 6、线下更新代码
 
-7、git config --global user.email "mingyang.zong@envision-digital.com"
+7、git config --global user.email "mingyang.zong@xxx.com"
 
 8、git config --global user.name "mingyang"  
 
