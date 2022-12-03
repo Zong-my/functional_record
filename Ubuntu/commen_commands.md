@@ -3,7 +3,7 @@
 scp -r bst_nbeats202107_09_10min_10min_10min_6 ends@10.232.0.37:/home/ends/Documents/zmy/
 
 # ubuntu中大文件数量mv
-find img  -type f -name '*.jpg' -exec mv {} /home/win/data/zmy/dataset/ori_jm_data_coco/images/train/ \;
+find img  -type f -name '*.jpg' -exec mv {} /home/win/data/zmy/dataset/ori_jm_data_coco/images/train/ \ ;
 
 # 服务器文件在Dockerhub中创建镜像
 
